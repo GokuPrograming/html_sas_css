@@ -1,0 +1,97 @@
+.btn-main, .btn-main-s {
+  background-color: blue;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  border: solid 1px blue;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: blue;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: rgba(136, 136, 136, 0.5333333333);
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 0.75rem;
+}
+
+.icon-sm i {
+  color: blue;
+  width: 4rem;
+  height: 4rem;
+  padding: 0.25rem;
+  border: solid black;
+  border-radius: 50%;
+  box-shadow: 0 0 10px black;
+  font-size: 0.75rem;
+}
+.icon-sm :hover {
+  color: aqua;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: blue;
+  font-size: 15rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: rgba(136, 136, 136, 0.5333333333);
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: blue;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desc .icon {
+  color: blue;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.configuracionLista li {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  border: 15%;
+  padding: 14px;
+}
+.configuracionLista :hover {
+  color: aqua;
+}/*# sourceMappingURL=index.css.map */
